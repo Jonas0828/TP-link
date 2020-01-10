@@ -1,0 +1,116 @@
+$warp-width:1200px;
+$nav-height:40px;
+$nav-bg:#333333;
+$notice-color:#FFF;
+.warp{
+    width: $warp-width;
+    margin: 0 auto;
+}
+.header-nav{
+    height: $nav-height;
+    background: $nav-bg;
+}
+.nav-notice{
+    font-size: 12px;
+    line-height: 40px;
+    color: $notice-color;
+    float: left;
+}
+.trolley-img{
+    background: url(tp-link\src\image\shopping_cart.png) no-repeat center;
+    background-size: 100%;
+    margin: 12px 4px 12px 12px;
+    float: left;
+    width: 16px;
+    height: 16px;
+}
+.nav-trolley{
+    float: right;
+    // margin-left: 8px;
+    // position: relative;
+    background-color: #4d4d4d;
+}
+.trolley-button{
+    display: block;
+}
+.nav-trolley:hover{
+    background-color: #0096ff;
+}
+.trolley-text{
+    font-size: 12px;
+    line-height: 40px;
+    padding-right: 12px;
+    color: #ccc;
+    float: left;
+}.nav-main{
+    float: right;
+    margin-right: 10px;
+}
+.nav-item{
+    font-size: 12px;
+    line-height: 40px;
+    color: rgba(255,255,255,.7);
+    padding: 0 8px;
+}
+.nav-item:hover{
+    color: #FFF;
+}
+.header-search{
+    width: 100%;
+    height: 80px;
+    background-color: #FFF;
+    border-bottom: 1px solid #E6E6E6;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.04);
+    box-sizing: border-box;
+    position: relative;
+}
+.header-logo{
+    width: 237px;
+    height: 20px;
+    margin: 30px 0 0;
+    float: left;
+}
+.banner-list{
+    margin-left:44px;
+    float: left;
+}
+.banner-item{
+    margin-left: 44px;
+    font-size: 14px;
+    line-height: 80px;
+    color: #333;
+    margin: 0 24px 0 0;
+    display: block;
+    float: left;
+}
+.banner-item:hover{
+    color:#0096ff;
+}
+.banner-search{
+    width: 320px;
+    height: 40px;
+    margin: 20px 0 0;
+    background-color: #FFF;
+    float: right;
+}
+.search-left{
+    padding: 10px 32px 10px 12px;
+    width: 276px;
+    height: 20px;
+    border: 1px solid #E6E6E6;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+}
+.search-right{
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/Shared/Search_normal.png);
+    background-size: 100% 100%;
+    background-color: #FFF;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 12px;
+}
